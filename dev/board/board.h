@@ -33,8 +33,8 @@
 /*
  * Board identifier.
  */
-#define BOARD_RM_2017
-#define BOARD_NAME                  "RM_Board_2017"
+#define BOARD_STM32F4_Explorer
+#define BOARD_NAME                  "STM32F4_Explorer"
 
 /*
  * Board oscillators-related settings.
@@ -45,7 +45,7 @@
 #endif
 
 #if !defined(STM32_HSECLK)
-#define STM32_HSECLK                12000000U
+#define STM32_HSECLK                8000000U
 #endif
 
 /*
@@ -57,7 +57,7 @@
 /*
  * MCU type as defined in the ST header.
  */
-#define STM32F427xx
+#define STM32F407xx
 
 /*
  * IO pins assignments.

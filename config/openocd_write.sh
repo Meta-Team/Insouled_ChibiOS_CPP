@@ -9,4 +9,4 @@
 # Notice: working directory should be set to current directory (config)
 # ----------------------------------------------------------------
 
-openocd -f RM_Board_2017.cfg -c "reset_config trst_only combined" -c "program ../dev/.build/ch.elf verify reset exit"
+openocd -f STM32_Explorer.cfg -c "reset_config trst_only combined" -c "program ../dev/.build/ch.elf verify reset exit"

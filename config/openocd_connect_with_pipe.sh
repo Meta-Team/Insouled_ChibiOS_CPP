@@ -9,5 +9,5 @@
 # NOTICE: Please change the following directory to the absolute path of the project root BEFORE using this script.
 # ----------------------------------------------------------------
 
-cd /Users/liuzikai/Documents/RoboMaster/Insouled_ChibiOS_CPP
-openocd -l openocd.log -c "gdb_port pipe" -f config/RM_Board_2017.cfg
+cd /Users/liuzikai/Documents/RoboMaster/STM32_Explorer
+openocd -l openocd.log -c "gdb_port pipe" -f config/STM32_Explorer.cfg

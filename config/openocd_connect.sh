@@ -11,4 +11,4 @@
 #         this script should be run manually before arm-embi-gdb and terminated manually after debugging
 # ----------------------------------------------------------------
 
-openocd -f RM_Board_2017.cfg
+openocd -f STM32_Explorer.cfg
